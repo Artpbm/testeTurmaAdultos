@@ -1,5 +1,5 @@
 
-import style from './App.module.css'
+// import style from './App.module.css'
 import { Menu } from './components/menu'
 
 function App() {
