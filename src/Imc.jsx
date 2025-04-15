@@ -3,9 +3,9 @@ import style from './Imc.module.css'
 
 export default function imc(){
 
-    const [n1, setN1] = useState ()
-    const [n2, setN2] = useState ()
-    const [respImc, setRespImc] = useState ()
+    const [n1, setN1] = useState()
+    const [n2, setN2] = useState()
+    const [respImc, setRespImc] = useState()
 
     const imcs = () => {
         const peso = parseFloat(n1)

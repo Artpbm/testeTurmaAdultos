@@ -22,6 +22,7 @@ export const Menu = (props) => {
         <a className={"nav-link"} href={'/calcs'}>{props.option04}</a>
         <a className={"nav-link"} href={'/media'}>{props.option05}</a>
         <a className={"nav-link"} href={'/Imc'}>{props.option06}</a>
+        <a className={"nav-link"} href={'/requisicao'}>{props.option07}</a>
       </div>
     </div>
       </div>

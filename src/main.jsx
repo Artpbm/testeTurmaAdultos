@@ -13,6 +13,7 @@ import Contact from './Contact.jsx'
 import Calcs from './Calcs.jsx'
 import Media from './media.jsx'
 import Imc from './Imc.jsx'
+import Req from './Rec.jsx';
 
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/imc",
     element: <Imc/>
+  },
+  {
+    path: "/requisicao",
+    element: <Req/>,
   },
 ]);
 
